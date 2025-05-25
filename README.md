@@ -19,7 +19,7 @@
 
 ---
 
-### Model 1 – Worker Thread 단독 처리
+### 1️⃣ Model 1 – Worker Thread 단독 처리
 
 ![Model1](./Model1.jpg)
 
@@ -29,7 +29,7 @@
 
 ---
 
-### Model 2 – 단일 Logic Thread 처리
+### 2️⃣ Model 2 – 단일 Logic Thread 처리
 
 ![Model2](./Model2.jpg)
 
@@ -39,7 +39,7 @@
 
 ---
 
-### Model 3 – 다중 Logic Thread 처리
+### 3️⃣ Model 3 – 다중 Logic Thread 처리
 
 ![Model3](./Model3.jpg)
 
@@ -49,7 +49,7 @@
 
 ---
 
-### Model 4 – 다중 Queue + 다중 Logic Thread
+### 4️⃣ Model 4 – 다중 Queue + 다중 Logic Thread
 
 ![Model4](./Model4.jpg)
 
