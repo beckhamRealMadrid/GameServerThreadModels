@@ -21,7 +21,7 @@
 
 ### Model 1 – Worker Thread 단독 처리
 
-![Model1](./Model1.png)
+![Model1](./Model1.jpg)
 
 - 모든 처리를 Worker Thread가 담당
 - **장점**: 컨텍스트 스위칭 없음 → 최고 성능 가능
@@ -31,7 +31,7 @@
 
 ### Model 2 – 단일 Logic Thread 처리
 
-![Model2](./Model2.png)
+![Model2](./Model2.jpg)
 
 - 모든 패킷을 Queue로 전달 → 단일 Logic Thread가 처리
 - **장점**: lock 불필요 → **협업/유지보수 용이**
@@ -41,7 +41,7 @@
 
 ### Model 3 – 다중 Logic Thread 처리
 
-![Model3](./Model3.png)
+![Model3](./Model3.jpg)
 
 - 하나의 Queue에 여러 Logic Thread가 접근하여 처리
 - **장점**: **병렬 처리 가능** → 멀티코어 활용
@@ -51,7 +51,7 @@
 
 ### Model 4 – 다중 Queue + 다중 Logic Thread
 
-![Model4](./Model4.png)
+![Model4](./Model4.jpg)
 
 - Queue 자체를 다수로 구성하고 각 Logic Thread에 분배
 - **장점**: lock contention 감소, 처리 효율 향상
